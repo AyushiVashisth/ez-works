@@ -217,4 +217,5 @@ def send_verification_email(email, verification_token):
         print(str(e))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000) 
+
